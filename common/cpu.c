@@ -483,6 +483,6 @@ int x264_cpu_num_processors( void )
     return ncpu;
 
 #else
-    return 1;
+    return 4;
 #endif
 }
